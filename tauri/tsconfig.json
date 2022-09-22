@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"jsxImportSource": "solid-js",
+		"types": ["vite/client"]
+	},
+	"extends": "@lightrix/config/tsconfig.json"
+}
