@@ -1,0 +1,12 @@
+version: 2
+updates:
+    - package-ecosystem: "npm"
+      directory: "/tauri"
+      schedule:
+          interval: "daily"
+      versioning-strategy: increase
+    - package-ecosystem: "cargo"
+      directory: "/tauri/src-tauri"
+      schedule:
+          interval: "daily"
+      versioning-strategy: increase
