@@ -2,7 +2,6 @@
 	"name": "spotify-now-playing",
 	"version": "0.0.1",
 	"description": "",
-	"license": "MIT",
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite",
