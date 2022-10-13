@@ -37,5 +37,5 @@ jobs:
 
             - run: pnpm install
               working-directory: ./tauri
-            - run: pnpm run build --if-present
+            - run: pnpm run build
               working-directory: ./tauri
