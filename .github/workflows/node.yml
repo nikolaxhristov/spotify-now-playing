@@ -36,8 +36,7 @@ jobs:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
                   cache-dependency-path: |
-                      **/pnpm-lock.yaml
-                  working-directory: ./tauri
+                      ./tauri/pnpm-lock.yaml
             - run: pnpm install
               working-directory: ./tauri
             - run: pnpm run build
