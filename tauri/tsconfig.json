@@ -3,5 +3,5 @@
 		"jsxImportSource": "solid-js",
 		"types": ["vite/client"]
 	},
-	"extends": "@lightrix/config/tsconfig.json"
+	"extends": "@lightrix/config/base/ts"
 }
